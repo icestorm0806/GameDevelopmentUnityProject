@@ -24,7 +24,6 @@ namespace UnityStandardAssets._2D
             transform.parent = null;
         }
 
-
         // Update is called once per frame
         private void Update()
         {
