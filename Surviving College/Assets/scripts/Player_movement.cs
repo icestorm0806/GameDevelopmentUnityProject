@@ -61,36 +61,22 @@ public class Player_movement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if ((other.gameObject.CompareTag("ground")) || (other.gameObject.CompareTag(platformName)))
+        if ((other.gameObject.CompareTag("ground")) || (other.gameObject.CompareTag("platform")))
         {
             isgrounded = true;
+            transform.parent = other.transform;
         }
     }
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if ((other.gameObject.CompareTag("ground")) || (other.gameObject.CompareTag(platformName)))
+        if ((other.gameObject.CompareTag("ground")) || (other.gameObject.CompareTag("platform")))
         {
             isgrounded = false;
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag(platformName))
-        {
-            transform.parent = other.transform;
-        }
-    }
-
-    private void OnTriggerExit(Collision2D other)
-    {
-        if (other.gameObject.CompareTag(platformName))
-        {
             transform.parent = null;
-
         }
     }
+    
 
     /*
     private void OnCollisionStay2D(Collision2D collision)
