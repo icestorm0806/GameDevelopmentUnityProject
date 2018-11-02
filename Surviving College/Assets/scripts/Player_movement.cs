@@ -8,7 +8,8 @@ public class Player_movement : MonoBehaviour
     private Rigidbody2D rb2D;
     private GameObject player;
     Animator animator;
-    
+
+    public string platformName;
     public LayerMask groundLayers;
 
     public float playerSpeed, jumpHight;
@@ -34,6 +35,8 @@ public class Player_movement : MonoBehaviour
             {
                 rb2D.velocity = new Vector2(rb2D.velocity.x, jumpHight);
             }
+
+            transform.parent = null;
         }
     }
 
@@ -58,7 +61,7 @@ public class Player_movement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if ((other.gameObject.CompareTag("ground")) || (other.gameObject.name == "Platform"))
+        if ((other.gameObject.CompareTag("ground")) || (other.gameObject.CompareTag(platformName)))
         {
             isgrounded = true;
         }
@@ -66,7 +69,7 @@ public class Player_movement : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if ((other.gameObject.CompareTag("ground")) || (other.gameObject.name == "Platform"))
+        if ((other.gameObject.CompareTag("ground")) || (other.gameObject.CompareTag(platformName)))
         {
             isgrounded = false;
         }
@@ -74,7 +77,7 @@ public class Player_movement : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D other)
     {
-        if(other.gameObject.name == "Platform")
+        if (other.gameObject.CompareTag(platformName))
         {
             transform.parent = other.transform;
         }
@@ -82,12 +85,13 @@ public class Player_movement : MonoBehaviour
 
     private void OnTriggerExit(Collision2D other)
     {
-        if (other.gameObject.tag == "platform")
+        if (other.gameObject.CompareTag(platformName))
         {
             transform.parent = null;
 
         }
     }
+
     /*
     private void OnCollisionStay2D(Collision2D collision)
     {

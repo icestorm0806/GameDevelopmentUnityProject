@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class platformVertical : MonoBehaviour {
+public class platformVertical : MonoBehaviour
+{
 
     private Vector2 posA;
     private Vector2 posB;
     private Vector2 nexPos;
-
-    
 
     [SerializeField]
     private float speed;
@@ -27,13 +26,13 @@ public class platformVertical : MonoBehaviour {
     }
     void Update()
     {
-        Move(); 
+        Move();
     }
 
     private void Move()
     {
         childTransform.localPosition = Vector2.MoveTowards(childTransform.localPosition, nexPos, speed * Time.deltaTime);
-        if(Vector2.Distance(childTransform.localPosition, nexPos) <= 0.1)
+        if (Vector2.Distance(childTransform.localPosition, nexPos) <= 0.1)
         {
             ChangeDestination();
         }
