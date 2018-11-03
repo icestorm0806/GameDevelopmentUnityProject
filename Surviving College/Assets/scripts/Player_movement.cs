@@ -64,8 +64,10 @@ public class Player_movement : MonoBehaviour
         if ((other.gameObject.CompareTag("ground")) || (other.gameObject.CompareTag("platform")))
         {
             isgrounded = true;
-            transform.parent = other.transform;
         }
+
+        if (other.gameObject.name.StartsWith("block"))
+            rb2D.velocity = new Vector2(rb2D.velocity.x, 0);
     }
 
     void OnCollisionExit2D(Collision2D other)
@@ -73,10 +75,34 @@ public class Player_movement : MonoBehaviour
         if ((other.gameObject.CompareTag("ground")) || (other.gameObject.CompareTag("platform")))
         {
             isgrounded = false;
-            transform.parent = null;
         }
     }
-    
+
+
+
+    void OnTriggerStay(Collider other)
+    {
+
+        if (other.gameObject.tag == "platform")
+        {
+            transform.parent = other.transform;
+
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "platform")
+        {
+            transform.parent = null;
+
+        }
+    }
+
+
+
+
+
 
     /*
     private void OnCollisionStay2D(Collision2D collision)
