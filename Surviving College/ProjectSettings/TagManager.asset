@@ -9,6 +9,8 @@ TagManager:
   - square
   - platform
   - Goose
+  - trees
+  - buildings
   layers:
   - Default
   - TransparentFX
@@ -24,9 +26,9 @@ TagManager:
   - platform
   - falling
   - Enemy
-  - 
-  - 
-  - 
+  - Trees
+  - Buildings
+  - Wall
   - 
   - 
   - 
@@ -46,18 +48,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Squares
+    uniqueID: 2000042107
+    locked: 0
   - name: ground
     uniqueID: 3001700639
     locked: 0
-  - name: player
-    uniqueID: 3697973247
-    locked: 0
-  - name: Squares
-    uniqueID: 2000042107
+  - name: Trees
+    uniqueID: 3426479607
     locked: 0
   - name: platform
     uniqueID: 3946491775
     locked: 0
   - name: Enemy
     uniqueID: 1427900695
+    locked: 0
+  - name: Buildings
+    uniqueID: 3206511599
+    locked: 0
+  - name: player
+    uniqueID: 3697973247
+    locked: 0
+  - name: enemy
+    uniqueID: 365517125
     locked: 0

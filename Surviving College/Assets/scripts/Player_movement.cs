@@ -17,35 +17,7 @@ public class Player_movement : MonoBehaviour
     public bool isgrounded;
     private bool facingLeft, facingRight;
     private float moveHorizontal;
-
-
-
-    /***************************************/
-    //Recent changes:
-    /*
-    public ControllerParameters2D DefaultParameters;
-
-
-    public ControllerState2D State { get; private set; }
-    public Vector2 Velocity { get { return _velocity; } }
-    public bool HandleCollisions { get; set; }
-    public ControllerParameters2D Parameter { get { return _overrideParameters ?? DefaultParameters; } }
-    public GameObject StandingOn { get; private set; }
-    public float PlatformVelocity { get; private set; }
-
-    public bool CanJump
-    {
-        get
-        {
-            if (DefaultParameters.JumpRestrictions == ControllerParameters2D.JumpBehavior.CanJumpAnywhere)
-                return _jumpIn <= 0;
-            if (DefaultParameters.JumpRestrictions == ControllerParameters2D.JumpBehavior.CanJumpOnGround)
-                return State.IsGrounded;
-
-            return false;
-
-        }
-    }
+    
 
     private Vector2 _velocity;
     private Transform _transform;

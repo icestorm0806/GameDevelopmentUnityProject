@@ -1,19 +1,19 @@
 fileFormatVersion: 2
 guid: 0bc839ee9d473bf429ac3ef77ee21d4c
-timeCreated: 1541444142
+timeCreated: 1541477312
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: PersonWalking_0
-    21300002: PersonWalking_1
-    21300004: PersonWalking_2
-    21300006: PersonWalking_3
-    21300008: PersonWalking_4
-    21300010: PersonWalking_5
-    21300012: PersonWalking_6
-    21300014: PersonWalking_7
-    21300016: PersonWalking_8
-    21300018: PersonWalking_9
+    21300000: PlayerIdle
+    21300002: PlayerWalking1
+    21300004: PlayerWalking2
+    21300006: PlayerWalking3
+    21300008: PlayerWalking4
+    21300010: PlayerWalking5
+    21300012: PlayerWalking6
+    21300014: PlayerWalking7
+    21300016: PlayerWalking8
+    21300018: PlayerWalking9
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -88,7 +88,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PersonWalking_0
+      name: PlayerIdle
       rect:
         serializedVersion: 2
         x: 0
@@ -96,13 +96,13 @@ TextureImporter:
         width: 1480
         height: 2162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_1
+      name: PlayerWalking1
       rect:
         serializedVersion: 2
         x: 1740
@@ -110,13 +110,13 @@ TextureImporter:
         width: 1217
         height: 2200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_2
+      name: PlayerWalking2
       rect:
         serializedVersion: 2
         x: 3349
@@ -124,13 +124,13 @@ TextureImporter:
         width: 1214
         height: 2215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_3
+      name: PlayerWalking3
       rect:
         serializedVersion: 2
         x: 4957
@@ -138,13 +138,13 @@ TextureImporter:
         width: 1215
         height: 2242
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_4
+      name: PlayerWalking4
       rect:
         serializedVersion: 2
         x: 6565
@@ -152,13 +152,13 @@ TextureImporter:
         width: 1215
         height: 2255
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_5
+      name: PlayerWalking5
       rect:
         serializedVersion: 2
         x: 6
@@ -166,13 +166,13 @@ TextureImporter:
         width: 1215
         height: 2283
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_6
+      name: PlayerWalking6
       rect:
         serializedVersion: 2
         x: 1656
@@ -180,13 +180,13 @@ TextureImporter:
         width: 1219
         height: 2305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_7
+      name: PlayerWalking7
       rect:
         serializedVersion: 2
         x: 3307
@@ -194,27 +194,27 @@ TextureImporter:
         width: 1218
         height: 2309
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_8
+      name: PlayerWalking8
       rect:
         serializedVersion: 2
         x: 4961
-        y: 0
+        y: 18
         width: 1215
         height: 2309
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PersonWalking_9
+      name: PlayerWalking9
       rect:
         serializedVersion: 2
         x: 6611
@@ -222,7 +222,7 @@ TextureImporter:
         width: 1213
         height: 2215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

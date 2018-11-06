@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: a22477b4c0438cf4ea4798404e14983a
-timeCreated: 1541443546
+guid: bffa58ad16c8b8c49a1dda8bb44f38c7
+timeCreated: 1541476348
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Goose_Flying_1
-    21300002: Goose_Flying_2
-    21300004: Goose_2
-    21300006: Goose_3
-    21300008: Goose_4
-    21300010: Goose_5
-    21300012: Goose_6
-    21300014: Goose_7
-    21300016: Goose_8
-    21300018: Goose_9
-    21300020: Goose_10
-    21300022: Goose_11
-    21300024: Goose_12
-    21300026: Goose_13
-    21300028: Goose_14
-    21300030: Goose_15
+    21300000: GooseFlying1
+    21300002: GooseFlying2
+    21300004: GooseWalking1
+    21300006: GooseWalking2
+    21300008: GooseWalking3
+    21300010: GooseWalking4
+    21300012: GooseWalking5
+    21300014: GooseWalking6
+    21300016: GooseWalking7
+    21300018: GooseAttack1
+    21300020: GooseAttack2
+    21300022: GooseAttack4
+    21300024: GooseAttack6
+    21300026: GooseAttack3
+    21300028: GooseAttack5
+    21300030: GooseAttack7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -94,225 +94,225 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Goose_Flying_1
+      name: GooseFlying1
       rect:
         serializedVersion: 2
-        x: 669
-        y: 3389
-        width: 2685
-        height: 1602
+        x: 112
+        y: 562
+        width: 444
+        height: 266
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_Flying_2
+      name: GooseFlying2
       rect:
         serializedVersion: 2
-        x: 3847
-        y: 3385
-        width: 2365
-        height: 1118
+        x: 639
+        y: 563
+        width: 391
+        height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_2
+      name: GooseWalking1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 1580
-        width: 1081
-        height: 1111
+        x: 11
+        y: 260
+        width: 181
+        height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_3
+      name: GooseWalking2
       rect:
         serializedVersion: 2
-        x: 1159
-        y: 1591
-        width: 1084
-        height: 1089
+        x: 193
+        y: 264
+        width: 179
+        height: 181
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_4
+      name: GooseWalking3
       rect:
         serializedVersion: 2
-        x: 2254
-        y: 1595
-        width: 1085
-        height: 1081
+        x: 375
+        y: 264
+        width: 179
+        height: 181
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_5
+      name: GooseWalking4
       rect:
         serializedVersion: 2
-        x: 3350
-        y: 1584
-        width: 1081
-        height: 1103
+        x: 556
+        y: 263
+        width: 180
+        height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_6
+      name: GooseWalking5
       rect:
         serializedVersion: 2
-        x: 4446
-        y: 1584
-        width: 1081
-        height: 1103
+        x: 738
+        y: 263
+        width: 179
+        height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_7
+      name: GooseWalking6
       rect:
         serializedVersion: 2
-        x: 5538
-        y: 1565
-        width: 1085
-        height: 1141
+        x: 919
+        y: 260
+        width: 179
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_8
+      name: GooseWalking7
       rect:
         serializedVersion: 2
-        x: 6634
-        y: 1590
-        width: 1079
-        height: 1090
+        x: 1101
+        y: 263
+        width: 179
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_9
+      name: GooseAttack1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 898
-        height: 782
+        y: 6
+        width: 149
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_10
+      name: GooseAttack2
       rect:
         serializedVersion: 2
-        x: 951
-        y: 73
-        width: 1182
-        height: 633
+        x: 184
+        y: 117
+        width: 200
+        height: 107
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_11
+      name: GooseAttack4
       rect:
         serializedVersion: 2
-        x: 2043
-        y: 89
-        width: 1186
-        height: 602
+        x: 557
+        y: 131
+        width: 196
+        height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_12
+      name: GooseAttack6
       rect:
         serializedVersion: 2
-        x: 3136
-        y: 74
-        width: 1186
-        height: 628
+        x: 921
+        y: 124
+        width: 196
+        height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_13
+      name: GooseAttack3
       rect:
         serializedVersion: 2
-        x: 4231
-        y: 66
-        width: 1186
-        height: 648
+        x: 339
+        y: 12
+        width: 197
+        height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_14
+      name: GooseAttack5
       rect:
         serializedVersion: 2
-        x: 5324
-        y: 74
-        width: 1186
-        height: 628
+        x: 702
+        y: 11
+        width: 196
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Goose_15
+      name: GooseAttack7
       rect:
         serializedVersion: 2
-        x: 6419
-        y: 89
-        width: 1183
-        height: 602
+        x: 1065
+        y: 14
+        width: 196
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
