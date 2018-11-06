@@ -894,90 +894,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdcc42d9e4ce85b4086233730c52febd, type: 2}
   m_IsPrefabParent: 0
-=======
-    - target: {fileID: 114545140537788216, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: PlatformMask.m_Bits
-      value: 100864
-      objectReference: {fileID: 0}
-    - target: {fileID: 58388200133916212, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114475067301113554, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: MaxSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114545140537788216, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: DefaultParameters.JumpMagnitude
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 50375481710581700, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61120991157994714, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: -0.31979036
-      objectReference: {fileID: 0}
-    - target: {fileID: 61120991157994714, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 19.379128
-      objectReference: {fileID: 0}
-    - target: {fileID: 212308783705936758, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0bc839ee9d473bf429ac3ef77ee21d4c,
-        type: 3}
-    - target: {fileID: 4385896122364190, guid: fdcc42d9e4ce85b4086233730c52febd, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4385896122364190, guid: fdcc42d9e4ce85b4086233730c52febd, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 61120991157994714, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 14.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 61120991157994714, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 21.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 61120991157994714, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: -0.096058846
-      objectReference: {fileID: 0}
-    - target: {fileID: 61120991157994714, guid: fdcc42d9e4ce85b4086233730c52febd,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 7.6271534
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 58388200133916212, guid: fdcc42d9e4ce85b4086233730c52febd, type: 2}
-<<<<<<< HEAD
-  m_SourcePrefab: {fileID: 100100000, guid: fdcc42d9e4ce85b4086233730c52febd, type: 2}
-  m_IsPrefabAsset: 0
->>>>>>> bbc8009aa271651a5f0604290bc8f9fa126ddc35
-=======
-  m_ParentPrefab: {fileID: 100100000, guid: fdcc42d9e4ce85b4086233730c52febd, type: 2}
-  m_IsPrefabParent: 0
->>>>>>> parent of bbc8009... Added player walking animation logic
 --- !u!1001 &287396442
 Prefab:
   m_ObjectHideFlags: 0
@@ -2744,56 +2663,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4781729993988756, guid: 2dc0f7052a82fa14bbe50aa49d18f320,
     type: 2}
   m_PrefabInternal: {fileID: 1812330962}
-<<<<<<< HEAD
-=======
---- !u!1001 &1196635499
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4155934020243322, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -9.3449
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155934020243322, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.1384
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155934020243322, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155934020243322, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155934020243322, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155934020243322, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155934020243322, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4155934020243322, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-<<<<<<< HEAD
-  m_SourcePrefab: {fileID: 100100000, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-  m_IsPrefabAsset: 0
->>>>>>> bbc8009aa271651a5f0604290bc8f9fa126ddc35
-=======
-  m_ParentPrefab: {fileID: 100100000, guid: e733afcbc35495f47af84fb25c4698a8, type: 2}
-  m_IsPrefabParent: 0
->>>>>>> parent of bbc8009... Added player walking animation logic
 --- !u!1001 &1199675715
 Prefab:
   m_ObjectHideFlags: 0
@@ -2846,17 +2715,8 @@ Prefab:
       value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_ParentPrefab: {fileID: 100100000, guid: 2dc0f7052a82fa14bbe50aa49d18f320, type: 2}
   m_IsPrefabParent: 0
-=======
-  m_SourcePrefab: {fileID: 100100000, guid: 2dc0f7052a82fa14bbe50aa49d18f320, type: 2}
-  m_IsPrefabAsset: 0
-=======
-  m_ParentPrefab: {fileID: 100100000, guid: 2dc0f7052a82fa14bbe50aa49d18f320, type: 2}
-  m_IsPrefabParent: 0
->>>>>>> parent of bbc8009... Added player walking animation logic
 --- !u!1001 &1211210021
 Prefab:
   m_ObjectHideFlags: 0
@@ -2897,14 +2757,8 @@ Prefab:
       value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: aaf0cee7dea805e47a87caac2e41a64d, type: 2}
   m_IsPrefabAsset: 0
->>>>>>> bbc8009aa271651a5f0604290bc8f9fa126ddc35
-=======
-  m_ParentPrefab: {fileID: 100100000, guid: aaf0cee7dea805e47a87caac2e41a64d, type: 2}
-  m_IsPrefabParent: 0
->>>>>>> parent of bbc8009... Added player walking animation logic
 --- !u!4 &1220313245 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4654975558065700, guid: 6b69c4b113df49549aad9fd6e2975fc3,
