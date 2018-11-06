@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/scenes/Main Scene.unity
+    guid: fe504c8052eddfc49b024fda21f1f76f
+  - enabled: 1
+    path: Assets/scenes/GooseBoss.unity
+    guid: 8170c34ab184d5a4fad1f5376cb6a01f

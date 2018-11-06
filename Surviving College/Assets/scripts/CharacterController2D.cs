@@ -19,6 +19,7 @@ public class CharacterController2D : MonoBehaviour
     public GameObject StandingOn { get; private set; }
     public Vector3 PlatformVelocity { get; private set; }
 
+    
     public bool CanJump
     {
         get

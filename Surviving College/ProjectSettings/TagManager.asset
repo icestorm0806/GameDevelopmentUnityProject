@@ -11,6 +11,10 @@ TagManager:
   - Goose
   - trees
   - buildings
+  - GooseDoor
+  - desk
+  - button
+  - death
   layers:
   - Default
   - TransparentFX

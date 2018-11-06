@@ -12,19 +12,51 @@ public class Player : MonoBehaviour
     public float SpeedAccelerationOnGround = 10f;
     public float SpeedAccelerationInAir = 5f;
 
+    static Animator anim;
     // Use this for initialization
     void Start()
     {
+        anim = GetComponent<Animator>();
         _controller = GetComponent<CharacterController2D>();
         _isFacingRight = transform.localScale.x > 0;
+    }
+
+    void setAnimationState()
+    {
+
+        // is walking
+        if (_controller.State.IsGrounded && _controller.Velocity.x != 0)
+        {
+            anim.SetBool("isWalking", true);
+            anim.SetBool("isJumping", false);
+            anim.SetBool("isIdle", false);
+        }
+
+        // is jumping
+        else if (!_controller.State.IsGrounded)
+        {
+            anim.SetBool("isWalking", false);
+            anim.SetBool("isJumping", true);
+            anim.SetBool("isIdle", false);
+        }
+
+        // is idle
+        else if (_controller.State.IsGrounded && (_controller.Velocity.x == 0 || _controller.Velocity.y == 0))
+        {
+            anim.SetBool("isWalking", false);
+            anim.SetBool("isJumping", false);
+            anim.SetBool("isIdle", true);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        setAnimationState();
         HandleInput();
         var movementFactor = _controller.State.IsGrounded ? SpeedAccelerationOnGround : SpeedAccelerationInAir;
         _controller.SetHorizontalForce(Mathf.Lerp(_controller.Velocity.x, _normalizedHorizontalSpeed * MaxSpeed, Time.deltaTime * movementFactor));
+
     }
 
     private void HandleInput()
