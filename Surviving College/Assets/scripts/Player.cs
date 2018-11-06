@@ -1,9 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    public Text timeUntilClass;
+    public float remainingTime = 60;
+    public Text gameOverText;
+
     private bool _isFacingRight;
     private CharacterController2D _controller;
     private float _normalizedHorizontalSpeed;
@@ -19,6 +22,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         _controller = GetComponent<CharacterController2D>();
         _isFacingRight = transform.localScale.x > 0;
+        timeUntilClass.text = "00:00";
     }
 
     void setAnimationState()
@@ -52,6 +56,20 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (remainingTime > 0)
+        {
+            remainingTime -= Time.deltaTime;
+        }
+        timeUntilClass.text = "" + Mathf.Round(remainingTime);
+        if (remainingTime <= 0)
+        {
+            gameOverText.text = "Game Over";
+            Time.timeScale = 0f;
+        }
+
+
+
         setAnimationState();
         HandleInput();
         var movementFactor = _controller.State.IsGrounded ? SpeedAccelerationOnGround : SpeedAccelerationInAir;
