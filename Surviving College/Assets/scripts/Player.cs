@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     private bool _isFacingRight;
     private CharacterController2D _controller;
     private float _normalizedHorizontalSpeed;
+    private Animator animator;
+    private bool walking;
 
     public float MaxSpeed;
     public float SpeedAccelerationOnGround = 10f;
@@ -17,6 +19,7 @@ public class Player : MonoBehaviour
     {
         _controller = GetComponent<CharacterController2D>();
         _isFacingRight = transform.localScale.x > 0;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,6 +34,8 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.D))
         {
+            walking = true;
+            animator.SetBool("walking", walking);
             _normalizedHorizontalSpeed = 1;
             if (!_isFacingRight)
             {
@@ -40,6 +45,8 @@ public class Player : MonoBehaviour
 
         else if (Input.GetKey(KeyCode.A))
         {
+            walking = true;
+            animator.SetBool("walking", walking);
             _normalizedHorizontalSpeed = -1;
             if (_isFacingRight)
             {
@@ -49,6 +56,8 @@ public class Player : MonoBehaviour
 
         else
         {
+            walking = false;
+            animator.SetBool("walking", walking);
             _normalizedHorizontalSpeed = 0;
         }
 
@@ -56,7 +65,6 @@ public class Player : MonoBehaviour
         {
             _controller.Jump();
         }
-
     }
 
     private void Flip()
